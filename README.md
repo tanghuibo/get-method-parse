@@ -15,6 +15,6 @@ String filedName1 = GetMethodParseUtils.getFiledName(((SFunction<TestBean, Strin
 String filedName2 = GetMethodParseUtils.getFiledName(((SFunction<TestBean, TestBean>)TestBean::getNext));
 // filedName2 = "next"
 
-String filedName3 = GetMethodParseUtils.getFiledName(((SFunction<TestBean, TestBean>)TestBean::getAliasList));
+String filedName3 = GetMethodParseUtils.getFiledName(((SFunction<TestBean, List<String>>)TestBean::getAliasList));
 // filedName2 = "aliasList"
 ```
