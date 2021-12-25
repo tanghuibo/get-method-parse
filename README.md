@@ -1,6 +1,6 @@
 # get-method-parse
 
-get 方法解析，参考 `mybatis-plus` 进行实现
+get 方法解析，参考 [mybatis-plus](https://github.com/baomidou/mybatis-plus) 进行实现
 
 ## 使用
 
